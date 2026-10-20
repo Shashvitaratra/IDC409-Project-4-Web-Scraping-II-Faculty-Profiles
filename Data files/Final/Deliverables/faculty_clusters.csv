@@ -1,0 +1,111 @@
+Name,Department,Designation,Keywords,Cluster,Predicted Dept,tsne_x,tsne_y
+Abhik Ganguli,DMS,Assistant Professor,"representations, number, galois representations, langlands, local langlands, galois",4,DMS,-18.209312,-2.4951823
+Abhishek Chaudhuri,DPS,Professor,"equilibrium, soft, condensed matter, condensed, matter, soft biological",2,DPS,1.1850638,9.430248
+Adrene Freeda Dcruz,HSS,Associate Professor,"science, addresses, charles, literary, apart, literature",0,EES,-6.8233676,3.6248422
+Ambresh Shivaji,DPS,Associate Professor,"energy physics, high energy, physics, energy, theoretical, high",8,DPS,5.4523983,14.214539
+Amar Deep,DBS,Assistant Professor,"bacterial, immune, structural biology, innate, structural, innate immune",3,DBS,1.4966968,-14.20429
+Amit Kulshrestha,DMS,Professor,"central simple, simple algebras, algebras, maps, simple, central",5,DMS,-19.107948,-8.957082
+Angshuman Roy Choudhury,DCS,Assistant Professor,"crystal, engineering, solid state, solid, state, chemistry",7,DCS,7.135793,-1.3639157
+Anil Kumar Dasanna,DPS,Assistant Professor,"soft, matter, soft biological, soft matter, biological matter, particle",2,DPS,0.47434202,10.289575
+Anil Kumar Tripathi,DBS,Professor,"promoting, genetics genomics, synthetic biology, biology plant, biology, genomics",6,DBS,-4.4753404,-9.60655
+Anoop Ambili,EES,Associate Professor,"geochemistry, environmental, systems, ecosystems, effective, response external",9,EES,0.28529772,-1.1259837
+Anu Sabhlok,HSS,Professor,"labour, urban, infrastructure, infrastructure urban, apart, ways",0,HSS,-8.179264,-1.5700395
+Arghya Mondal,DMS,Assistant Professor,"analysis, discrete, analysis lie, representation, lie",4,DMS,-16.13158,-6.0128317
+Arijit Kumar De,DCS,Associate Professor,"spectroscopy, laser, optical, femtosecond, ultrafast, effect",1,DCS,3.8056576,6.6094365
+Arunika Mukhopadhaya,DBS,Professor,"immune, innate, responses, innate immune, bacterial, negative",3,DBS,2.4495869,-13.287183
+Arvind,DPS,Professor,"quantum, quantum physics, physics, mechanics quantum, computation, education",2,DPS,8.070494,11.067757
+Arvind Kumar Shakya,EES,Assistant Professor,"wastewater, water, metal, anaerobic, resource recovery, recovery",9,EES,1.707481,-4.954454
+Baerbel Sinha,EES,Professor,"science, source, receptor, modelling, quantifying, aerosol",0,EES,-5.3660197,6.1034408
+Balanarayan Pananghat,DCS,Associate Professor,"laser, initio, methodologies, equilibrium, attosecond, non",1,DCS,4.146197,3.7985938
+Chanchal Kumar,DMS,Professor,"commutative algebra, commutative, algebra algebraic, graphs, algebraic geometry, geometry",5,DMS,-17.704908,-11.368034
+Chandrakant Sharma Aribam,DMS,Associate Professor,"adic, galois, elliptic, extensions, questions, behaviour",4,DMS,-18.899847,-2.980094
+Chandrakanta Ojha,EES,Assistant Professor,"remote sensing, remote, sensing, groundwater, monitoring, machine",9,EES,0.7327331,1.2595043
+Chetan Tukaram Balwe,DMS,Associate Professor,"algebraic geometry, algebraic, geometry, plays, commutative algebra, commutative",5,DMS,-16.662445,-11.680914
+Debashis Adhikari,DCS,Associate Professor,"reaction mechanism, photochemistry, inorganic, reaction, mechanism, catalysis",7,DCS,10.038075,2.4020896
+Debdulal Saha,HSS,Assistant Professor,"labour, urban",0,HSS,-8.832368,-1.2315114
+Eswaraiah Chakali,DPS,Assistant Professor,"observational, astronomy astrophysics, astronomy, medium, astrophysics, polarization",8,DPS,7.744303,17.380634
+Harvinder Kaur Jassal,DPS,Professor,"dark, universe, observations, component, relativity, energy",8,DPS,7.9913664,16.307215
+Hasan Mohammad,DBS,Assistant Professor,"brain, chronic, adaptive, stimuli, natural, behavioral",9,DBS,-0.8086905,0.06816676
+Indranil Banerjee,DBS,Associate Professor,"viral, entry, infection, viruses, host, pathways",3,DBS,0.1339418,-13.420291
+Jasjeet Singh Bagla,DPS,Professor,"astrophysics, gravitational, expanding, galaxy, universe, cosmology",8,DPS,8.730064,17.300613
+Jino George,DCS,Associate Professor,"strong, states, photon, given, chemical, chemistry",1,DCS,6.094452,4.458545
+Jogender Singh,DBS,Assistant Professor,"stress, metabolism, stress responses, responses, stress biology, lifespan",3,DBS,1.1677347,-12.390232
+Jotsaroop Kaur,DMS,Assistant Professor,"analysis, corresponding, studying, elliptic, operators, integral",4,DMS,-15.172478,-7.05399
+Jyotima Kanaujia,EES,Assistant Professor,"seismic, wave, earth, deformation, crustal, solid",9,DCS,0.019123204,2.8085155
+Kausik Chattopadhyay,DBS,Professor,"pore, membrane, pathogen interaction, host pathogen, pathogen, structure function",3,DBS,3.3801022,-12.325923
+Kamal Priya Singh,DPS,Professor,"attosecond, quantum dynamics, physics, dynamics, quantum, developments",2,DPS,6.019406,10.091435
+K. R. Shamasundar,DCS,Assistant Professor,"methods, reference, quantum chemistry, multi, involving, chemical",1,DCS,5.7170343,3.35516
+Kavita Dorai,DPS,Professor,"nmr, nmr spectroscopy, spectroscopy, processing, nmr methodology, information processing",2,DCS,5.155788,-0.20545
+Kinjalk Lochan,DPS,Associate Professor,"gravity, classical, holes, early, black, quantum",8,DPS,9.117697,16.222624
+Krishnendu Gongopadhyay,DMS,Professor,"geometry, interaction, das, geometric, structures",5,DMS,-14.691402,-10.464175
+Kritika M. Garg,DBS,Assistant Professor,"genomics, ancient, biodiversity, ecology, evolutionary, dna",9,DBS,-4.4608626,-6.6551185
+Kuduva R. Vignesh,DCS,Assistant Professor,"magnetic, chemistry molecular, magnetism, complexes, single, computational chemistry",1,DCS,7.2533255,2.6329496
+Lingaraj Sahu,DMS,Associate Professor,"operator, algebra",4,DMS,-18.676325,-7.486411
+Mahak Sharma,DBS,Professor,"complex, functioning, diseases, human, cell biology, proteins",3,DBS,-1.409792,-13.801865
+Mahender Singh,DMS,Professor,"interplay, topology, algebra, mapping, manifolds, solutions",5,DMS,-19.862139,-8.33572
+Manabendra Nath Bera,DPS,Assistant Professor,"quantum, information, quantum information, mechanics quantum, information quantum, quantum physics",2,DPS,8.996867,10.675054
+Mandip Singh,DPS,Associate Professor,"processing, information processing, experiments, quantum, optics, quantum optics",2,DPS,8.245948,9.262179
+Manjari Jain,DBS,Associate Professor,"ecology, biodiversity, animals, communication, evolutionary biology, evolution",9,DBS,-4.019066,-5.6778755
+Manoj Kumar,EES,Assistant Professor,"contaminants, groundwater, geochemistry, tracing, surface, transport",9,EES,0.1811751,-2.1760335
+Mihir Sheth,DMS,Assistant Professor,"representation, number, langlands, langlands program, adic local, local langlands",4,DMS,-17.923168,-3.2958992
+N G Prasad,DBS,Professor,"conflict, sexual, immunity, evolutionary, selection, ecology",9,DBS,-4.674549,-4.745581
+Neeraja Sahasrabudhe,DMS,Assistant Professor,"applied, probability, theoretical, models, graphs, stochastic",1,DPS,2.633016,3.5647893
+Pankaj Kushwaha,DPS,Assistant Professor,"astrophysics, high energy, emission, astronomy astrophysics, astronomy, relativistic",8,DPS,6.8216825,16.359068
+Parth R. Chauhan,HSS,Associate Professor,"indian, rock, sciences, world, archaeological, asia",0,HSS,-5.4873033,-2.7959087
+Philose Koshy,HSS,Assistant Professor,"philosophy, political, post, political philosophy, logic, frameworks",0,HSS,-7.6926465,2.8490613
+Pranab Sardar,DMS,Associate Professor,"spaces, geometric, maps, combination, past, mainly",4,DMS,-14.318919,-8.837856
+Prasenjit Das,DPS,Assistant Professor,"physics statistical, soft condensed, statistical mechanics, soft, condensed matter, condensed",2,DPS,1.9691495,10.119725
+Pritam Mondal,DCS,Assistant Professor,"inorganic, bioinspired, model systems, model, biological, chemistry",7,DCS,8.41379,-4.2378087
+Pritika,HSS,Assistant Professor,"philosophy, political, political philosophy, literary, literature, academic",0,HSS,-7.2130857,2.1189735
+Priyakumari C P,DCS,Assistant Professor,"computational chemistry, perovskites, lead, theoretical computational, transition, chemistry",1,DCS,7.265637,3.5766385
+Ramesh Ramachandran,DCS,Professor,"nmr, solid state, nmr spectroscopy, spectroscopy, solid, magnetic",2,DPS,5.963495,-0.20904884
+R. Vijaya Anand,DCS,Professor,"organic chemistry, organic, biologically, unnatural, chemistry synthetic, chemistry",7,DCS,10.971993,-2.6655695
+Rachna Chaba,DBS,Professor,"metabolism, bacterial, metabolism stress, stress responses, gene regulation, regulation",3,DBS,1.0713079,-11.392878
+Raj Kumar Roy,DCS,Associate Professor,"polymer, functional materials, functional, chemistry, materials, synthesize",7,DCS,8.553946,-1.9511801
+Rajeev Kapri,DPS,Professor,"statistical, physics biological, mechanics soft, soft matter, physics, statistical mechanics",2,DPS,0.9416555,11.210635
+Rajesh Ramachandran,DBS,Professor,"molecular mechanisms, tissue, mechanisms, molecular, epigenetic, epigenetic factors",3,DBS,-1.4559082,-15.549299
+Raju Attada,EES,Associate Professor,"atmospheric, climate, science, modelling, weather, physics",0,HSS,-5.7891774,5.3322735
+Ram Yadav,DBS,Associate Professor,"plant, biology, biology plant, cell biology, stress, genetics",6,DBS,-3.976792,-10.768202
+Ramandeep Singh Johal,DPS,Professor,"thermodynamics, quantum, statistical physics, quantum thermodynamics, domain, physics quantum",2,DPS,7.6958623,10.167462
+Ravi Sureshbhai Devani,DBS,Assistant Professor,"sex, molecular biology, set, crops, genetics molecular, genetics",6,DBS,-2.712066,-10.555547
+Rhitoban Ray Choudhury,DBS,Associate Professor,"genetics genomics, genomics, evolution, genetics, behavioral ecology, microbe interactions",6,DBS,-4.2425666,-7.8651714
+Ritajyoti Bandyopadhyay,HSS,Associate Professor,"infrastructure, urban, history, contemporary, infrastructure urban, south",0,HSS,-7.6431875,-0.7422393
+S. S. V. Rama Sastry,DCS,Professor,"synthesis catalysis, organic synthesis, catalysis, synthesis, transformations, intramolecular",7,DCS,11.428879,0.45996994
+S. Arulananda babu,DCS,Professor,"synthesis, activation, organic synthesis, mediated, organic, unnatural",7,DCS,11.277927,-1.4321482
+Sabyasachi Rakshit,DCS,Associate Professor,"sciences, live, molecular dynamics, imaging, time, molecule",1,DBS,-4.092647,-15.04489
+Sadhan Chandra Das,DBS,Assistant Professor,"healing, epigenetic, diabetes, mechanisms, investigating, players",3,DBS,-0.11267403,-16.06846
+Samarjit Bhattacharyya,DBS,Professor,"trafficking, events, protein, receptor, brain, regulatory",3,DBS,-0.6105302,-14.90044
+Samir Kumar Biswas,DPS,Associate Professor,"tissue, microscopy, deep, shaping, nanophotonics, instrumentation",3,DBS,-2.1867135,-17.014233
+Samrat Ghosh,DCS,Assistant Professor,"societal, make, designed, class, chemistry, levels",7,DCS,6.9583187,-2.6382205
+Samrat Mukhopadhyay,DBS,Professor,"biophysics, synthetic biology, chemical, cellular, synthetic, separation",6,DCS,-4.368242,-13.838898
+Sajal Kumar Giri,DCS,Assistant Professor,"machine, machine learning, learning, light matter, quantum dynamics, light",1,DPS,1.9004774,2.8762102
+Sanchita Sengupta,DCS,Associate Professor,"organic, twisted, sensors, materials, light, transfer",7,DCS,10.152195,-0.2821045
+Sandeep K. Goyal,DPS,Associate Professor,"quantum, computation, quantum computation, photons, quantum information, measurement",2,DPS,9.279587,9.677002
+Sanjay Singh,DCS,Professor,"main, macrocycles, low, complexes, species, catalysis main",7,DCS,10.389029,1.1671145
+Sanjeev Kumar,DPS,Professor,"computational methods, condensed, condensed matter, methods, quantum, matter",2,DPS,3.3032987,8.773912
+Santanu Kumar Pal,DCS,Professor,"supramolecular chemistry, supramolecular, explored, aqueous, interfaces, liquid",1,DCS,6.5502195,-4.1042857
+Santhosh Kumar Pamula,DMS,Assistant Professor,"operator, analysis, functional, operators, matrices, analysis lie",4,DMS,-16.63504,-7.026167
+Santosh B. Satbhai,DBS,Associate Professor,"plant, plants, stress, microbe interactions, change, climate change",6,DBS,-3.242826,-9.296436
+Shane D'Mello,DMS,Assistant Professor,"real, varieties, algebraic, topology",5,DMS,-17.437712,-12.578472
+Sharmila Bhattacharya,EES,Assistant Professor,"geochemistry, ancient, organic, geochemical, ecosystems, geological",9,DCS,1.727865,-2.2223759
+Sharvan Sehrawat,DBS,Associate Professor,immunology,3,DMS,3.506028,-14.884155
+Shashi Bhushan Pandit,DBS,Associate Professor,"protein, proteins, bioinformatics, computational, structures, function",3,DBS,-2.8949056,-14.4397
+Shravan Kumar Mishra,DBS,Associate Professor,"splicing, cell biology, cell, alternative splicing, biology, molecular",6,DBS,-3.4178724,-13.052833
+Soma Maity,DMS,Assistant Professor,"geometry, differential, geometric, topology, compact, complete",5,DMS,-15.103682,-9.466049
+Sourabh Bhattacharya,EES,Assistant Professor,"earth, economic, crustal, genetic, metal, ranging",9,DBS,-3.9052713,-3.5241506
+Subhabrata Maiti,DCS,Associate Professor,"chemistry, organic chemistry, life, bio, assembly, self assembly",7,DCS,9.527958,-3.7009315
+Sudeshna Sinha,DPS,Professor,"nonlinear, complex, coupled, networks, computing, systems",1,DPS,2.4150767,4.876953
+Sugumar Venkataramani,DCS,Associate Professor,"organic chemistry, species, matrix, organic, synthetic organic, spectroscopy",7,DCS,9.855905,-2.0884879
+Suman Kumar Barman,DCS,Assistant Professor,"reduction, catalytic, activation, processes, bio, structural",7,DCS,8.543446,-5.1940064
+Sunil A. Patil,EES,Associate Professor,"microbiology, environmental, electron, sustainable, biotechnology, integrated",9,EES,1.1148547,-5.104085
+Tanusree Khandai,DMS,Assistant Professor,"representation, lie, algebra, algebras, dimensional",4,DMS,-17.83614,-5.990651
+Tripta Bhatia,DPS,Assistant Professor,"biophysics, membranes, indian, special, soft, physics",2,DPS,2.0913234,11.061273
+Ujjal K. Gautam,DCS,Associate Professor,"renewable, catalysis, energy",8,DCS,10.661259,3.5110772
+V. Rajesh,HSS,Associate Professor,"history, literary, literature, social",0,HSS,-7.3350368,0.7757578
+Vaibhav Vaish,DMS,Assistant Professor,"varieties, algebraic geometry, geometry, algebraic, structures, motivic",5,DMS,-16.28627,-12.54431
+Varadharaj Ravi Srinivasan,DMS,Associate Professor,"differential, galois, solutions, linear, algebraic, addresses",5,DMS,-19.917671,-9.460999
+Vidya Devi Negi,DBS,Associate Professor,"pathogen, pathogen interaction, host pathogen, infection, host, interaction",3,DBS,2.4933124,-11.670176
+Vinayak Sinha,EES,Professor,"atmospheric, mass, chemical, proton transfer, proton, air",0,DCS,-4.622051,6.050784
+Vishal Bhardwaj,DPS,Assistant Professor,"energy physics, high energy, physics, energy, high, matter",8,DPS,5.2814703,14.810513
+Yogesh Singh,DPS,Professor,"exist, phases, materials, spin, physics quantum, quantum",2,DPS,4.1879587,8.374399
+Yunus Ali Pulpadan,EES,Assistant Professor,"remote sensing, remote, sensing, seismic, mitigation, natural",9,EES,-0.2192517,1.3268043
