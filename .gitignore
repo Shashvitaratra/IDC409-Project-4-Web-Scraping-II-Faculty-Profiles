@@ -4,3 +4,6 @@ __pycache__/
 .venv/
 .env
 *.pyc
+vidwan_data/
+demo_scratch.db
+*_run.ipynb
