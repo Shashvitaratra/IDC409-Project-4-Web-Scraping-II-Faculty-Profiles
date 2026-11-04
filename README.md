@@ -104,6 +104,17 @@ Run the notebooks in the order above. Each one reads the output of the previous 
 
 ---
 
+## Extension: Vidwan comparison
+
+To benchmark IISER Mohali against a national profile, we compared our scraped data with the **Vidwan: Indian Faculty and Researcher Dataset** ([Kaggle: mannacharya/vidwan-indian-faculty-and-researcher-dataset](https://www.kaggle.com/datasets/mannacharya/vidwan-indian-faculty-and-researcher-dataset), CC0: Public Domain, 15,500 profiles). In `Vidwan_Comparison.ipynb`, we classified institutions into four groups: IISER Mohali (36 profiles), Other IISERs (155), IITs (2,670), and NITs (1,277), compared their designation structures, and extracted characteristic keywords using TF-IDF and term frequencies.
+
+**Key findings:**
+- **Basic Science vs. Engineering Focus:** IISER profiles are heavily concentrated in natural sciences (`chemistry` 25.0% at Mohali and 37.4% at other IISERs vs. 9.9% at IITs; `physics` 13.9% at Mohali and 31.6% at other IISERs vs. 11.2% at IITs). In contrast, IITs and NITs are overwhelmingly dominated by engineering disciplines (`engineering` 65.5% at IITs and 73.5% at NITs; `electrical`, `electronic`, `mechanical`, `civil`).
+- **Seniority Distribution:** Across institutions, Professors and Associate Professors form the majority of registered profiles, with Assistant Professors representing 16.7% at IISER Mohali, 10.3% at other IISERs, 9.5% at IITs, and 23.2% at NITs.
+- **Coverage & Roster Matching:** 29 of the 36 (80.6%) IISER Mohali faculty registered on Vidwan match our independently scraped roster. However, our web scraping identified 135 total faculty members, underscoring that public institute websites provide far more comprehensive coverage than self-reported national registries like Vidwan where participation is voluntary and coverage is uneven.
+
+---
+
 ## Limitations
 
 - **Small sample.** 110 profiles are used for modelling, and the smallest department has only 8\. Cross-validation scores will move noticeably with a different split.  
@@ -162,8 +173,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn beautifulsoup4 requests
 ├── EDA.ipynb            # exploratory analysis
 ├── Clustering.ipynb     # TF-IDF, clustering, search, classification
 ├── Database_Demo.ipynb  # SQL read, insert, update, delete demonstration
+├── Vidwan_Comparison.ipynb # extension: comparison with national Vidwan dataset
 ├── iisermohali_faculty.db
-└── *.csv                # intermediate and final data files
+└── *.csv                # intermediate, final, and Vidwan summary data files
 ```
 
 ---
