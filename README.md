@@ -2,11 +2,11 @@
 
 **Topic 4: Web Scraping II, Faculty Profiles (Course project for IDC409)**
 
-Authors: *Shashvita* Ratra(MS24190) , Stavya Pandey(MS24245)
+Authors: Shashvita Ratra (MS24190), Stavya Pandey (MS24245)
 
-Instructor: *Dr.* Vishal Bharadwaj&nbsp;
+Instructor: Dr. Vishal Bharadwaj
 
-Semester: *Monsoon* Semester *2026-27*
+Semester: Monsoon Semester 2026-27
 
 This project scrapes the faculty profile pages of IISER Mohali, cleans and stores them in a SQLite database, explores the data and then applies text-mining and machine-learning methods to the faculty's research descriptions. The aim is to find patterns in training (PhD year and institution, postdoc and career path) and expertise (research areas and interests).
 
@@ -90,6 +90,20 @@ Run the notebooks in the order above. Each one reads the output of the previous 
 
 ---
 
+## EDA: key observations
+
+(Computed from `faculty_eda_done.csv`; 135 people, 122 regular faculty.)
+
+- **Department sizes.** Across all 135 records: DPS 32, DBS 31, DCS 26, DMS 23, EES 13, HSS 10. Among the 122 regular faculty: DPS 28, DBS 28, DCS 25, DMS 21, EES 12, HSS 8.
+- **Seniority is balanced.** Regular faculty: 44 Assistant Professors, 40 Associate Professors, 38 Professors.
+- **PhD cohort.** Of the 96 regular faculty with a PhD year, 53 (55%) started their PhD in the 2000s, 22 in the 1990s, 18 in the 2010s, 2 in the 1980s and 1 in the 2020s.
+- **Postdoc entries vary strongly by department.** A postdoc entry was parsed for about 82% of DBS regular faculty, 52% of DCS, 50% of EES, 32% of DPS, 25% of HSS and 24% of DMS. This reflects what profiles list as well as real career paths.
+- **Missing data.** Of 122 regular faculty, PhD year/institution is missing for 26 (21%) and Awards for 43 (35%); 89% have a Publications section.
+- **Profile completeness (maximum 8).** Median 8, mean 7.0. DMS profiles are the least complete (mean 6.3), EES the most (7.8).
+- **Text fields are not clean.** The scraped "Research Interests" field contains the whole tab (median about 47,600 characters, maximum about 785,000), so it had to be trimmed before text analysis.
+
+---
+
 ## Limitations
 
 - **Small sample.** 110 profiles are used for modelling, and the smallest department has only 8\. Cross-validation scores will move noticeably with a different split.  
@@ -97,7 +111,9 @@ Run the notebooks in the order above. Each one reads the output of the previous 
 - **Missing data.** PhD institution is missing for 26 of 122 regular faculty. One profile could not be scraped (HTTP 403).  
 - **Rule-based parsing.** Career entries and PhD-institution buckets are extracted with regular expressions and keyword rules. Unusual formats can be mislabelled, and 8 institutions fell into "Unclassified".  
 - **Single institution.** Comparisons with other institutes (IIT, NIT, other IISERs) are not covered.  
-- **Labels and text overlap.** Department labels are partly encoded in the research text itself, so classification accuracy overstates how well expertise is predicted from scratch.
+- **Labels and text overlap.** Department labels are partly encoded in the research text itself, so classification accuracy overstates how well expertise is predicted from scratch.  
+- **Residual noise in parsed fields.** One PhD year range is reversed (2024-2018), some PhD-institution strings are untidy, 11 names keep "Prof."/"Dr." prefixes, and most Email entries hold a username without the domain.  
+- **Postdoc and award fields reflect what profiles list**, not verified career histories.
 
 Possible extensions: add other institutes' profiles, map research keywords across institutes, and try embedding-based representations instead of TF-IDF.
 
@@ -108,7 +124,7 @@ Possible extensions: add other institutes' profiles, map research keywords acros
 | \# | Requirement | Where it is met |
 | :---- | :---- | :---- |
 | 1 | Use numpy and pandas to store data | All notebooks |
-| 2 | Database: read, write and modify | SQLite tables created, queried and updated in `Cleaning.ipynb`, `EDA.ipynb`, `Clustering.ipynb` |
+| 2 | Database: read, write and modify | SQLite tables created, queried, inserted into, updated and deleted (on a scratch copy) in `Database_Demo.ipynb`; written in `Cleaning.ipynb`, `EDA.ipynb` and `Clustering.ipynb` |
 | 3 | Exploratory Data Analysis | `EDA.ipynb` |
 | 4 | Understand features, and reduce them | TF-IDF feature extraction, `min_df`/`max_df` filtering, Truncated SVD |
 | 5 | Machine-learning models | K-Means, Logistic Regression, Linear SVM |
@@ -145,6 +161,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn beautifulsoup4 requests
 ├── Cleaning.ipynb       # cleaning + SQLite
 ├── EDA.ipynb            # exploratory analysis
 ├── Clustering.ipynb     # TF-IDF, clustering, search, classification
+├── Database_Demo.ipynb  # SQL read, insert, update, delete demonstration
 ├── iisermohali_faculty.db
 └── *.csv                # intermediate and final data files
 ```
@@ -153,4 +170,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn beautifulsoup4 requests
 
 ## Ethical note
 
-The scraper checks `robots.txt` before accessing the People page, sets a descriptive user-agent string, and retries failed requests with backoff. The data consists of publicly listed faculty profile information and is used here only for academic analysis. Please respect the institute's terms of use if you re-run it.
+The scraper checks `robots.txt` (the People page and every profile page), identifies itself with the User-Agent `IISERFacultyResearch/1.0`, waits at least 1 second between requests, and retries failed requests with backoff. The data in this repository was collected in an earlier run, before these safeguards were complete: that run did not pause between requests and, because of a header-name typo, did not send the custom User-Agent. The code has since been corrected. A verification re-run on November 4, 2026 was not blocked by robots.txt and returned the same 135 rows and 11 columns as the original; one row (Shravan Kumar Mishra) differed in four columns: Research Interests, Career Highlights, Awards, and Publications (reflecting live updates made to the faculty member's profile page on the institute website). The original data was kept. The data consists of publicly listed faculty profile information and is used only for academic analysis. Please respect the institute's terms of use if you re-run it.
